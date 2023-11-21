@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ab78a217-a529-4c6b-b5ff-15aec0144b8e)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 19.05 20.32) (size 27.94 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1bb3cf4a-a603-480b-a7ef-61299c1c676c)
+    (property "Sheetname" "gate controller" (at 19.05 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "gate.kicad_sch" (at 19.05 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "eecd_project"
+        (path "/ab78a217-a529-4c6b-b5ff-15aec0144b8e" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 50.8 20.32) (size 26.67 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cc5a804d-81a3-4289-b57f-d1cc61903cec)
+    (property "Sheetname" "key fob" (at 50.8 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "fob.kicad_sch" (at 50.8 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "eecd_project"
+        (path "/ab78a217-a529-4c6b-b5ff-15aec0144b8e" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

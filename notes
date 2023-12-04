@@ -1,3 +1,18 @@
+TODO
+  make names sane
+  find a spdt relay
+
+optocoupler resistors
+
+what's the current when the optocoupler's open?
+
+
+check if crystal needs a resistor in MCU spec
+
+chose the crystal
+
+passive pins in kicad
+
 parts
   gate
     current consumption:

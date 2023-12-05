@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PE014024
+D SPCO PCB power relay,5A 24Vdc coil
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae4d33368f63114f5349d314fffec2b6.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMR54406FDBVR
+D Switching Voltage Regulators SIMPLE SWITCHER power converter 4.5-V to 36-V, 0.6-A, synchronous buck with 80-uA IQ
+K
+F https://www.ti.com/lit/ds/symlink/lmr54406.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1658823113046&ref_url=https%253A%252F%252Fwww.mouser.in%252F
+$ENDCMP
+#
+#End Doc Library

@@ -2793,6 +2793,32 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 347.98 72.39 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8752b1ed-f105-468c-ac91-136a612df902)
+    (property "Reference" "R1" (at 350.52 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 350.52 73.66 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 346.202 72.39 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 347.98 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d5ed3e0b-4cc7-459c-906e-b9844c651a23))
+    (pin "2" (uuid d706024c-390c-49ec-a85f-90899ebfddc8))
+    (instances
+      (project "eecd_project"
+        (path "/ab78a217-a529-4c6b-b5ff-15aec0144b8e"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:Barrel_Jack") (at 73.66 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8790608b-c484-47ad-83ec-88ac6fd0bcb3)
@@ -2994,32 +3020,6 @@
       (project "eecd_project"
         (path "/ab78a217-a529-4c6b-b5ff-15aec0144b8e"
           (reference "R27") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 347.98 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9f15f077-3c8b-4759-a001-1673b8364ffd)
-    (property "Reference" "R1" (at 341.63 72.39 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10K" (at 344.17 72.39 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 346.202 72.39 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 347.98 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1371ee12-a1bf-4c4b-a776-5971901add67))
-    (pin "2" (uuid 54fd0261-ec5d-457d-9b54-31a08af73821))
-    (instances
-      (project "eecd_project"
-        (path "/ab78a217-a529-4c6b-b5ff-15aec0144b8e"
-          (reference "R1") (unit 1)
         )
       )
     )
